@@ -5,7 +5,7 @@
 
     <groupId>com.github.piotr-kalanski</groupId>
     <artifactId>kafka-admin-rest</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
     <packaging>jar</packaging>
 
     <name>kafka-admin-rest</name>

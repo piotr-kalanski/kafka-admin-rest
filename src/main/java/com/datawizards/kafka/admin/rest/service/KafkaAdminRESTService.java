@@ -22,7 +22,9 @@ public class KafkaAdminRESTService {
 
         for(Map.Entry<String, String> config: createTopicRequest.getAdditionalConfig().entrySet()) {
             command.append(" --config ");
-            command.append(config);
+            command.append(config.getKey());
+            command.append("=");
+            command.append(config.getValue());
         }
 
         String cmd = command.toString();
